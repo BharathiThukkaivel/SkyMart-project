@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;  
+  background-image: url('https://img.freepik.com/premium-photo/top-view-paper-bag-full-different-healthy-food-isolated-green-background_882636-1979.jpg?size=626&ext=jpg&uid=R121985264&ga=GA1.1.1905098259.1698059531&semt=ais');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.details {
+  width: 28rem;
+}
+
+.details form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
