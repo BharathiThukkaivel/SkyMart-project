@@ -24,6 +24,10 @@ app.use(
   })
 );
 
+// app.use((req,res,next)=>{
+//   res.setHeader("Access-Control-Allow-Origin","http://localhost:3000")
+// })
+
 app.use('/api/foods', foodRouter);
 app.use('/api/users', userRouter);
 app.use('/api/orders', orderRouter);
